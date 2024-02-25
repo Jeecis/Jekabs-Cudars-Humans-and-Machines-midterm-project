@@ -42,8 +42,7 @@ class RFmodel:
                 correct+=1
         res=correct/len(answers)
 
-        print(f' Accuracy 1 - : {res}')
-        print(f' Accuracy 2 - : {rf.score(X_test, y_test)}')
+        print(f' Accuracy: {res}')
 
     def track(self, dataGroups):
         pd.set_option('display.max_rows', None)

@@ -58,7 +58,7 @@ def main(name):
     rf.humanJudge()
     rf.kaggle(dg19)
     rf.accuracy(dg0)
-    rf.track(dg0)
+    rf.track(dg0) # this method takes a lot of output space, you might want to comment it out when testing other methods
 
     i=0
     for array in dgs:
