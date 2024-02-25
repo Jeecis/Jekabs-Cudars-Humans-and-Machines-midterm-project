@@ -1,0 +1,34 @@
+Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+Pclass
+Name
+Sex
+Age
+SibSp
+Parch
+Ticket
+Fare
+Cabin
+Embarked
+Sex,Fare,Pclass
+SibSp,Parch,Cabin
+Embarked,Age,Parch
+Sex,Fare,SibSp
+Pclass,SibSp,Cabin
+
+Sex,Fare,Pclass,SibSp
+SibSp", "Parch","Cabin", "Fare"]
+Embarked", "Age","Parch","Cabin"]
+Sex, "Fare","SibSp","Cabin"]
+Pclass", "SibSp","Cabin","Sex"]
+
+Sex", "Fare","Pclass", "SibSp", "Cabin"]
+SibSp", "Parch","Cabin", "Fare","Sex"]
+Embarked", "Age","Parch","Cabin", "Sex"]
+
+Sex", "Fare","Pclass", "SibSp", "Cabin", "Embarked"]
+Sex", "Fare","Pclass", "SibSp", "Cabin", "Parch"]
+Sex", "Fare","Pclass", "SibSp", "Cabin", "Embarked", "Parch"]
+
+Sex", "Fare","Pclass", "SibSp", "Cabin", "Ticket"]
+
+Sex", "Fare","Pclass", "SibSp", "Cabin", "Ticket"]
